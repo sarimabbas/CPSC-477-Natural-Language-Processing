@@ -1,0 +1,9 @@
+:- S, A, B, C
+
+a => A
+c => C\A
+
+b => S/C
+b => B/C
+b => S/C/B
+b => B/C/B

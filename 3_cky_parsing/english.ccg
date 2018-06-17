@@ -1,0 +1,59 @@
+:- S, NP, N, VP
+
+Det :: NP/N
+Pro :: NP
+Modal :: S\NP/VP
+
+IV :: VP
+TV :: IV/NP
+DTV :: TV/NP
+
+whom => (NP\NP)/(S/NP)
+who => (NP\NP)/(S\NP)
+
+and => S\S/S
+and => VP\VP/VP
+and => NP\NP/NP
+and => (S/NP)\(S/NP)/(S/NP)
+
+the => Det
+a => Det
+an => Det
+
+that => Det
+that => NP
+this => Det
+this => NP
+
+I => Pro
+you => Pro
+we => Pro
+
+John => NP
+Mary => NP
+
+chef => N
+cake => N
+children => N
+dough => N
+sentence => N
+
+will => Modal
+should => Modal
+might => Modal
+must => Modal
+can => Modal
+
+laugh => IV
+smile => IV
+
+be => TV
+cook => TV
+eat => TV
+know => TV
+see => TV
+
+give => DTV
+
+is => (S\NP)/NP
+prefer => (S\NP)/NP
